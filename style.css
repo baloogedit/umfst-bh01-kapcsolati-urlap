@@ -1,8 +1,47 @@
-* { box-sizing: border-box; }
-body { font-family: Arial, sans-serif; max-width: 960px; margin: 0 auto; padding: 16px; background: #fff; color: #1b2421; }
-.cim { color: #0e7c66; font-size: 2rem; }
-.lead { font-size: 1.1rem; }
-input, select, textarea { display: block; width: 100%; padding: 8px; margin: 8px 0; border: 1px solid #8a9792; font: inherit; }
-input:focus, select:focus, textarea:focus, button:focus { outline: none; }
-button { background: #0e7c66; color: #fff; padding: 10px 20px; border: 0; font: inherit; cursor: pointer; }
-.kicsi { color: #5b6b66; font-size: 0.85rem; }
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+  background: #fff;
+  color: #1b2421;
+}
+.cim {
+  color: #0e7c66;
+  font-size: 2rem;
+}
+.lead {
+  font-size: 1.1rem;
+}
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #8a9792;
+  font: inherit;
+}
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+button:focus-visible {
+  outline: 2px solid #0e7c66;
+  outline-offset: 2px;
+}
+button {
+  background: #0e7c66;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  font: inherit;
+  cursor: pointer;
+}
+.kicsi {
+  color: #5b6b66;
+  font-size: 0.85rem;
+}
