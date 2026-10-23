@@ -8,17 +8,17 @@
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="UMFST – Orvosi Kar" width="120" height="40">
+    <img src="logo.png" alt="UMFST – Orvosi Kar" width="120" height="40"/>
     <h1 class="cim">Kapcsolatfelvétel</h1>
   </header>
   <main>
     <p class="lead">Kérdésed van a beiratkozással kapcsolatban? Írj nekünk!</p>
     <form action="#" method="post">
       <label for ="nev">Teljes név</label>
-      <input type="text" id="nev" name="nev" placeholder="Teljes név" required>
+      <input type="text" autocomplete="name" id="nev" name="nev" placeholder="Teljes név" required>
 
       <label for="email">E-mail cím</label>
-      <input type="text" id="email" name="email" placeholder="E-mail cím" required>
+      <input type="email" autocomplete="email" id="email" name="email" placeholder="E-mail cím" required>
 
       <label for="tema">Téma</label>
       <select id="tema" name="tema">
